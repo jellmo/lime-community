@@ -1,0 +1,8 @@
+server:
+  port: 8080
+  servlet:
+    context-path: commmunity
+spring:
+  thymeleaf:
+    #关闭thymeleaf缓存
+    cache: false
