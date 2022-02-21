@@ -1,11 +1,10 @@
-package com.lime.community;
+package com.lime.community.mapperTest;
 
 import com.lime.community.entity.User;
 import com.lime.community.repository.UserMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.Date;
 
