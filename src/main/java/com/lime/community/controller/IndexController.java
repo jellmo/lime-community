@@ -46,15 +46,17 @@ public class IndexController {
         //默认渲染前10条帖文数据
         List<DiscussPost> list = discussPostService.selectDiscussPosts(0, 0, 10);
         //将帖文与作者信息对映起来
-        List<Map<String, Object>> discussPostsList = new ArrayList<>();
+        List<Map<String, Object>> discussPosts = new ArrayList<>();
         if (list != null) {
             for (DiscussPost post : list) {
                 User user = userService.selectById(post.getUserId());
                 HashMap<String, Object> map = new HashMap<>();
                 map.put("post", post);
                 map.put("user", user);
+                discussPosts.add(map);
             }
         }
+        model.addAttribute("discussPosts", discussPosts);
         return "/index";
     }
 }
