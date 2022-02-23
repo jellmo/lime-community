@@ -1,6 +1,6 @@
 package com.lime.community.mapperTest;
 
-import com.lime.community.entity.User;
+import com.lime.community.model.entity.User;
 import com.lime.community.repository.UserMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
 package com.lime.community.service;
 
-import com.lime.community.entity.DiscussPost;
+import com.lime.community.model.entity.DiscussPost;
 
 import java.util.List;
 

@@ -21,7 +21,7 @@ spring:
 
 #mybatis配置
 mybatis:
-  type-aliases-package: com.lime.community.entity     #类型别名（实体类路径）
+  type-aliases-package: com.lime.community.model.entity     #类型别名（实体类路径）
   mapper-locations: classpath:/mapper/*.xml           #mapper文件映射路径
   configuration:
     use-generated-keys: true                          #自动生成主键

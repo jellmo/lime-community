@@ -1,4 +1,4 @@
-package com.lime.community.entity;
+package com.lime.community.model.entity;
 
 import java.io.Serializable;
 import java.util.Date;

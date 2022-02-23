@@ -1,6 +1,6 @@
 package com.lime.community.service;
 
-import com.lime.community.entity.User;
+import com.lime.community.model.entity.User;
 
 /**
  * <p></p>

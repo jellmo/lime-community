@@ -1,6 +1,6 @@
 package com.lime.community.repository;
 
-import com.lime.community.entity.User;
+import com.lime.community.model.entity.User;
 import org.springframework.stereotype.Repository;
 
 /**

@@ -1,6 +1,6 @@
 package com.lime.community.service.impl;
 
-import com.lime.community.entity.DiscussPost;
+import com.lime.community.model.entity.DiscussPost;
 import com.lime.community.repository.DiscussPostMapper;
 import com.lime.community.service.DiscussPostService;
 import org.springframework.beans.factory.annotation.Autowired;

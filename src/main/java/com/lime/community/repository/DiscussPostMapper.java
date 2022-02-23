@@ -1,6 +1,6 @@
 package com.lime.community.repository;
 
-import com.lime.community.entity.DiscussPost;
+import com.lime.community.model.entity.DiscussPost;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

@@ -1,12 +1,9 @@
 package com.lime.community.mapperTest;
 
-import com.lime.community.entity.DiscussPost;
 import com.lime.community.repository.DiscussPostMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-
-import java.util.List;
 
 /**
  * <p></p>

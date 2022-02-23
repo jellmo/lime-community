@@ -1,6 +1,6 @@
 package com.lime.community.service.impl;
 
-import com.lime.community.entity.User;
+import com.lime.community.model.entity.User;
 import com.lime.community.repository.UserMapper;
 import com.lime.community.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
